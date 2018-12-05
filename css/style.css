@@ -116,6 +116,9 @@ a{
     h1{
 		margin-bottom: -10px;
 	}
+	h2{
+		font-weight: 100;
+	}
 	img{
 		width: 40%;
 	}
@@ -142,28 +145,29 @@ a{
 
 }
 
-/*
-@media only screen and (min-width: 768px) {
+
+@media only screen and (max-width: 768px) {
 	img{
 		width: 15%;
 	}   
 	a{
-		font-size: 23px;
+		font-size: 15px;
 	}
     .center{
 	    width: 60%;
 	}
 	.title{
-		font-size: 82px;
+		font-size: 20px;
+    	text-align: center;
 	}
 	.subtitle{
 		font-size: 19px;
+		text-align: center;
 	}
 	.bio{
 		font-size: 25px;
 	}
 	#separator-2{
-		width: 60%;
+		width: 50%;
 	}
 }
-*/
