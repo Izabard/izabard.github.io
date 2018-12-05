@@ -31,7 +31,7 @@ img{
 a{
 	text-decoration: inherit;
     color: #FFFFFF;
-    cursor: auto;
+    /*cursor: auto;*/
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     padding: 20px;
@@ -49,9 +49,7 @@ a{
 	opacity: 0.5;
 	width: 25%;
 }
-#image-section{
 
-}
 .center{
 	margin-left: auto;
     margin-right: auto;
@@ -71,7 +69,7 @@ a{
 .bio{
 	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
-	text-align: justify; 
+	/*text-align: justify; */
 }
 
 
@@ -79,39 +77,6 @@ a{
 /* mediaqueries */
 /*tablets*/
 @media only screen and (max-width: 600px) {
-   
-    h1{
-		margin-bottom: -10px;
-	}
-	img{
-		width: 40%;
-	}
-
-	a{
-		font-size: 14px;
-		padding: 30px; 
-	}
-
-	#separator-2{
-		width: 40%;
-	}
-
-    .center{
-	    width: 60%;
-	}
-	.title{
-		font-size: 24px;
-	}
-	.subtitle{
-		font-size: 8px;
-	}
-
-
-}
-
-/*phones*/
-
-@media only screen and (max-width: 768px) {
    
     h1{
 		margin-bottom: -10px;
@@ -128,33 +93,39 @@ a{
 		padding: 30px; 
 	}
 
-	#separator-2{
-		width: 40%;
-	}
-
     .center{
-	    width: 90%;
+	    width: 60%;
 	}
 	.title{
-		font-size: 43px;
+		font-size: 24px;
 	}
 	.subtitle{
-		font-size: 14px;
+		font-size: 8px;
+	}
+	.bio{
+		font-size: 18px;
+		font-weight: 100;
 	}
 
 
 }
 
+/*phones*/
 
 @media only screen and (max-width: 768px) {
 	img{
-		width: 15%;
+		width: 30%;
 	}   
 	a{
-		font-size: 15px;
+		font-size: 20px;
+		padding: 5px;
+		font-weight: 100;
+	}
+	h2{
+		font-weight: 100;
 	}
     .center{
-	    width: 60%;
+	    width: 90%;
 	}
 	.title{
 		font-size: 20px;
@@ -166,8 +137,9 @@ a{
 	}
 	.bio{
 		font-size: 25px;
+		font-weight: 100;
 	}
 	#separator-2{
-		width: 50%;
+		width: 80%;
 	}
 }
