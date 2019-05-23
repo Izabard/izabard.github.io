@@ -1,145 +1,98 @@
-* {
-    box-sizing: border-box;
+html, body{
+	font-family: system-ui, 'Helvetica Neue','Source Sans Pro', sans-serif;'
+	margin: 0px;
+	color: #101342;
 }
-
-body{
-	background-color: rgba(0,0,0,0.90);
-}
-
-h1{
-	color: #FFFFFF;
-	margin-top: 0px;
-	margin-bottom: -25px;
-	font-weight: 400	;
-}
-h2{
-	color: #FFFFFF;
-	font-weight: 400;
-}
-p{
-	color: #FFFFFF;
-}
-
-img{
-	display: block;
+#wrapper{
+	width: 600px;
 	margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-	width: 10%;
+	margin-right: auto;
+	padding-bottom: 200px;
 }
-
-a{
-	text-decoration: inherit;
-    color: #FFFFFF;
-    /*cursor: auto;*/
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    padding: 20px;
-}
-
-#social{
-	text-align: center;
-}
-
-#separator-1{
-	opacity: 0.5;
-}
-
-#separator-2{
-	opacity: 0.5;
-	width: 25%;
-}
-
-.center{
-	margin-left: auto;
-    margin-right: auto;
-    width: 33%;
+.header{
+	margin-top: 100px;
 }
 .title{
-	font-size: 42px;
-	margin-top: 0px;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	font-weight: 800;
+	margin-bottom: 0px;
 }
-
 .subtitle{
+	font-weight: 500;
+	margin-top: 5px;
+	font-size: 25px;
+}
+.description{
+	color: #666;
+	font-weight: 500;
+	margin-top: 30px;
+	line-height: 2em;
+}
+.contact-bar{
+	width: 100%;
+	margin-top: 40px;
+	overflow: hidden;
+}
+.contact-title{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 7px;
+}
+.contact-button{
+	background-color: #101342;
+	color: #FFF;
+	padding: 12px 25px 12px 25px;
 	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
+	float: right;
+	text-align: center;
+	border-radius: 30px;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+}
+.contact-button:hover{
+	opacity: 0.7;
 }
 
-.bio{
-	font-size: 18px;
-	font-family: 'Montserrat', sans-serif;
-	/*text-align: justify; */
+.footer{
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
 }
-
-
+.footer-link{
+	text-decoration: none;
+}
 
 /* mediaqueries */
 /*tablets*/
 @media only screen and (max-width: 600px) {
-   
-    h1{
-		margin-bottom: -10px;
+	#wrapper{
+		width: 80%;
+		margin-left: 10%;
 	}
-	h2{
-		font-weight: 100;
-	}
-	img{
-		width: 40%;
-	}
-
-	a{
-		font-size: 14px;
-		padding: 30px; 
-	}
-
-    .center{
-	    width: 60%;
-	}
-	.title{
-		font-size: 24px;
-	}
-	.subtitle{
-		font-size: 8px;
-	}
-	.bio{
-		font-size: 18px;
-		font-weight: 100;
-	}
-
-
-}
-
-/*phones*/
-
-@media only screen and (max-width: 768px) {
-	img{
-		width: 30%;
-	}   
-	a{
-		font-size: 20px;
-		padding: 5px;
-		font-weight: 100;
-	}
-	h2{
-		font-weight: 100;
-	}
-    .center{
-	    width: 90%;
-	}
-	.title{
-		font-size: 20px;
-    	text-align: center;
-	}
-	.subtitle{
-		font-size: 19px;
+  	.header{
+  		margin-top: 75px;
+  	}
+  	.description{
+  		font-size: 3.5vw;
+  	}
+  	.title{
+  		font-size: 10vw;
+  	}
+  	.subtitle{
+  		font-size: 4vw;
+  	}
+	.contact-title{
+		width: 100%;
+		float: none;
 		text-align: center;
 	}
-	.bio{
-		font-size: 25px;
-		font-weight: 100;
+	.contact-button{
+		float: none;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
 	}
-	#separator-2{
-		width: 80%;
-	}
+	
 }
