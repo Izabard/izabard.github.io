@@ -3,11 +3,11 @@ html, body{
 	margin: 0px;
 	color: #101342;
 }
-#wrapper{
+.wrapper{
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 200px;
+	padding-bottom: 0px;
 }
 .header{
 	margin-top: 100px;
@@ -67,7 +67,7 @@ html, body{
 /* mediaqueries */
 /*tablets*/
 @media only screen and (max-width: 600px) {
-	#wrapper{
+	.wrapper{
 		width: 80%;
 		margin-left: 10%;
 	}
